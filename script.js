@@ -138,7 +138,7 @@ class YandexMapIntegration {
         this.mapContainer = document.getElementById('yandex-map');
         this.fallback = document.querySelector('.map-fallback');
         this.loadButton = document.getElementById('load-map-btn');
-        this.coordinates = [55.688209, 37.296337];
+        this.coordinates = [55.685477, 37.291816];
         if (!this.mapContainer) return;
         this.loadButton?.addEventListener('click', () => this.loadYandexMaps());
         setTimeout(() => this.loadYandexMaps(), 2000);
